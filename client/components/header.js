@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+
 const Header = () => {
   const [toggled, toggle] = useState(false)
 
@@ -26,8 +27,8 @@ const Header = () => {
       </div>
       {toggled && (
         <div id="menu" className="block">
-          <button
-            type="button"
+          <a 
+            href="https://www.google.com"  // сделали так что бы при нажатии на меню включался гугл HW11-2
             className="flex items-center px-3 py-2 border rounded text-gray-700 border-gray-700 hover:text-white hover:border-white"
           >
             <svg
@@ -38,7 +39,7 @@ const Header = () => {
               <title>Menu</title>
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
             </svg>
-          </button>
+          </a>
         </div>
       )}
     </nav>
