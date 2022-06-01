@@ -13,7 +13,7 @@ const Profile = () => {
           <div id="title" className='text-center'>Profile</div>
           <Link to="/dashboard">➤ Go To Root</Link>
           <Link to="/dashboard/main">➤ Go To Main</Link>
-          <div id="username">{user}</div>
+          <div id="username"> user {user}</div>
         </div>
       </div>
     </div>
