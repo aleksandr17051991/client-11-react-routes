@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <Header />
           <div className='text-center text-black font-bold rounded-lg border shadow-lg p-20'>
-            <Link to='/'>Go to HOMEPAGE</Link>
+            <Link to='/'>HOMEPAGE</Link>
           </div>
           {/* add new routes for new components */}
           <Switch>
